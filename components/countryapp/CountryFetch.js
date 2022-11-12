@@ -43,7 +43,7 @@ const CountryFetch = () => {
         setFilter(newCountries);
       };
   return (
-    <div>
+    <div className='h-screen'>
 {isLoading && <h1>loading</h1>}
 {error && <h1>fetch error</h1>}
 <p className='text-center text-3xl pt-10 capitalize text-white'>Country Details finder</p>
