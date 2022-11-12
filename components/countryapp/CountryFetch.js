@@ -35,9 +35,9 @@ const CountryFetch = () => {
         setFilter(filter)
     }
     const handleSearch = (searchValue) => {
-        let value = searchValue
+        let value = searchValue.toLowerCase()
         const newCountries = country.filter((cn) => {
-          const countryName = cn.name.common;
+          const countryName = cn.name.common.toLowerCase()
           return countryName.startsWith(value);
         });
         setFilter(newCountries);
