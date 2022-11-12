@@ -5,7 +5,7 @@ const Layout = ({children}) => {
   return (
     <div className='bg-gradient-to-r from-[#020222] via-[#110114] to-[#050515] '>
 
-    <main> {children}</main>
+    <main className='bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113]'> {children}</main>
 <BackToTop/>
 
 

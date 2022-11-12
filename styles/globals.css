@@ -9,6 +9,7 @@
   font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    background: #000;
  }
  body::-webkit-scrollbar{
    width: 7px;
