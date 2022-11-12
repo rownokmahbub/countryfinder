@@ -44,7 +44,7 @@ const CountryFetch = () => {
       };
 
   return (
-    <div className='md:h-max bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113]'>
+    <div className='h-max bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113]'>
 {isLoading && <h1>loading</h1>}
 {error && <h1>fetch error</h1>}
 <p className='text-center text-3xl pt-10 capitalize text-white'>Country Details finder</p>
